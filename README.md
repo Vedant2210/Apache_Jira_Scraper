@@ -1,137 +1,197 @@
+# Apache JIRA Scraper
 
-# 🐘 Apache JIRA Scraper
-
-## 📘 Overview
-The **Apache JIRA Scraper** is a Python-based project designed to fetch, process, and store issue data from **Apache JIRA projects** such as **HADOOP**, **SPARK**, and **KAFKA**.
-
-It scrapes **publicly available data** from the [Apache JIRA](https://issues.apache.org/jira/) website, transforms it into a structured format, and saves it as `.jsonl` (JSON Lines) files for easy analysis.
+> A robust, modular Python-based scraper to collect, process, and transform issue data from **Apache JIRA** projects (like Hadoop, Spark, and Kafka) into structured **JSONL format** — ideal for analytics or LLM training.
 
 ---
 
-## 🚀 Features
+## Overview
 
-- 🔍 Scrapes issue data (title, ID, description, status, reporter, etc.)
-- 🧹 Cleans and structures raw data into JSONL format
-- 📂 Automatically saves processed data in organized folders
-- ⚙️ Customizable configuration for projects and issue limits
-- 🪵 Built-in logging for monitoring scraping progress
-- ⚡ Lightweight and modular Python design
+The **Apache JIRA Scraper** automates the extraction of public issue data from Apache’s JIRA system using REST APIs.  
+It helps researchers, developers, and data engineers create high-quality datasets by scraping issue descriptions, comments, metadata, and transforming them into a **machine-readable** format.
+
+This tool is designed for:
+-  Data collection for ML/NLP research  
+-  Issue tracking & project analytics  
+-  Training datasets for LLM fine-tuning  
 
 ---
 
+## ⚙️ Tech Stack
+
+| Category | Tools / Libraries |
+|-----------|-------------------|
+| **Language** | Python 3.10+ |
+| **HTTP Requests** | `requests` |
+| **Data Handling** | `json`, `pandas` |
+| **Logging** | `logging`, custom loggers |
+| **Configuration** | `argparse`, `settings.py` |
+| **Environment** | `venv` |
+| **Output Format** | `.jsonl` |
+| **Version Control** | Git & GitHub |
+
 ---
 
-## 🏗️ Project Structure
+## 🚀 Key Features
+
+✅ **Multi-Project Scraping:**  
+Fetches issue data from multiple **Apache projects** such as **Hadoop**, **Spark**, and **Kafka** using a unified pipeline.
+
+✅ **Data Transformation:**  
+Converts **raw JSON responses** into **cleaned, structured `.jsonl` format** suitable for data analysis and visualization.
+
+✅ **Rate Limit & Retry Handling:**  
+Automatically handles **pagination**, **rate limits**, and **network retries** to ensure complete and stable data collection.
+
+✅ **Comprehensive Logging:**  
+Logs every step of the process in detailed log files (`logs/scraper.log`) for **debugging**, **monitoring**, and **traceability**.
+
+✅ **Checkpoint System (Fault Tolerance):**  
+Uses lightweight `.checkpoint_*` files to **resume from the last completed stage** if the process is interrupted — ensuring **fault-tolerant execution**.
+
+✅ **Configurable Pipeline:**  
+All settings (project names, limits, file paths, etc.) are easily customizable via **`config/settings.py`**.
+
+✅ **Modular & Extensible Design:**  
+Each stage (scraping, transformation, saving, logging) is **independent and reusable**, making it easy to extend for **new projects or APIs**.
+
+---
+
+## 📁 Project Structure
 
 ```bash
 apache-jira-scraper/
 │
 ├── config/
-│   └── settings.py           # Configuration variables (projects, limits)
+│   └── settings.py           # Configuration variables (project list, limits)
 │
 ├── data/
-│   └── processed/            # Output folder for JSONL files
+│   ├── raw/                  # Raw JSON data from JIRA API
+│   ├── processed/            # Cleaned JSONL files
+│   └── checkpoints/          # Track last processed issue ID
+│
+├── logs/                     # Logging directory
 │
 ├── src/
-│   ├── scraper.py            # Core scraping logic
+│   ├── scraper.py            # Core scraper logic
 │   ├── transform.py          # Data transformation and saving
 │   └── logger.py             # Logging setup
 │
-├── main.py                   # Main entry point
-├── requirements.txt          # Project dependencies
-└── README.md                 # Documentation
-
-
-yaml
-Copy code
+├── main.py                   # Entry point for the scraper
+├── requirements.txt          # Dependencies list
+└── README.md                 # Project documentation
 ```
----
+## ⚙️ Configuration
+
+All configuration variables are stored in **`config/settings.py`**.  
+Below is a table describing each key configuration parameter:
+
+| Variable Name       | Description                                              | Example Value                                                |
+|----------------------|----------------------------------------------------------|--------------------------------------------------------------|
+| `PROJECTS`           | List of Apache project names to scrape                   | `["HADOOP", "SPARK", "KAFKA"]`                              |
+| `ISSUE_FETCH_LIMIT`  | Maximum number of issues to fetch per project            | `500`                                                        |
+| `OUTPUT_DIR`         | Directory to store processed JSONL files                 | `"data/processed/"`                                          |
+| `LOG_FILE`           | Path to the log file for tracking scraping progress      | `"logs/scraper.log"`                                         |
+| `BASE_URL`           | Base URL of the Apache JIRA server                       | `"https://issues.apache.org/jira/rest/api/2/search"`         |
 
 ## ⚙️ Installation & Setup
 
+Follow these steps to set up and run the scraper locally 👇
+
+---
+
 ### 1️⃣ Clone the Repository
-```bash
+
+```
 git clone https://github.com/Vedant2210/Apache_Jira_Scraper.git
 cd Apache_Jira_Scraper
+
 ```
-2️⃣ Create a Virtual Environment
-bash
+---
+### 2️⃣ Create a Virtual Environment
 ```
 python -m venv venv
 ```
-3️⃣ Activate the Virtual Environment
+---
+### 3️⃣ Activate the Virtual Environment
 Windows:
-
-bash
 ```
-Windows:
 venv\Scripts\activate
-
+```
 macOS/Linux:
+```
 source venv/bin/activate
 ```
-4️⃣ Install Dependencies
-bash
+---
+### 4️⃣ Install Dependencies
 ```
 pip install -r requirements.txt
 ```
-▶️ Usage
-Run the Scraper
+---
+### 5️⃣ Verify Installation
+To ensure Python and pip are correctly installed, run:
 ```
-bash
+python --version
+pip --version
+```
+### Expected output example:
+```
+nginx
 
+Python 3.10.x
+pip 23.x.x
+```
+### Usage Guide
+Once setup is complete, run the scraper:
+```
 python main.py
 ```
-The scraper will start fetching issues for all projects listed in your settings.py file.
+This will start fetching issue data for all projects listed inside your config/settings.py file.
 
-By default, it will process:
-
-ini
-
+By default, the projects are:
+```
 DEFAULT_PROJECTS = ["HADOOP", "SPARK", "KAFKA"]
+```
+Each project’s issue data will be scraped, transformed, and saved in .jsonl format under the data/processed directory.
 
-Output Format
-All processed issues will be stored in:
 
 
+
+
+
+### 🧩 Project Pipeline Overview
+
+| Step | Description | File / Module | Output / Notes |
+|------|--------------|----------------|----------------|
+| 1️⃣ | **Start the main script** | `main.py` | Initializes the pipeline |
+| 2️⃣ | **Load configuration settings** | `config/settings.py` | Loads parameters and credentials |
+| 3️⃣ | **Fetch issues from Jira** | `scraper.py` (class: `JiraScraper`) | Retrieves issues via API |
+| 4️⃣ | **Handle pagination, rate limits, and retries** | `scraper.py` | Ensures all pages are fetched reliably |
+| 5️⃣ | **Save raw JSON data** | `data/raw/` | Stores unprocessed API responses |
+| 6️⃣ | **Clean and transform data** | `transform.py` (class: `DataTransformer`) | Formats and preprocesses data |
+| 7️⃣ | **Generate JSONL formatted output** | `transform.py` | Produces structured JSONL |
+| 8️⃣ | **Save processed data** | `data/processed/` | Stores final cleaned dataset |
+| 9️⃣ | **Log progress and status** | `logs/*.log` | Keeps track of run details |
+| 🔟 | **End of pipeline** | — | Process completed successfully |
+
+---
+##Output Format
+
+All processed issues are stored in:
+```
 data/processed/{project_name}_issues.jsonl
-
-Each line in the .jsonl file represents one issue in JSON format, for example:
-
-json
-
+```
+Example:
+```
 {"id": "HADOOP-1001", "summary": "Fix namenode error", "status": "Open", "reporter": "user123"}
 {"id": "SPARK-2020", "summary": "Improve shuffle performance", "status": "Closed", "reporter": "dev456"}
+```
+## Logging
 
-🧠 Key Concepts Covered
-Web Scraping (requests, BeautifulSoup)
+Logs are automatically generated to help you monitor scraping progress and errors.
+All logs are stored in the path specified in settings.py (default: logs/scraper.log).
 
-Data Cleaning & Transformation
-
-File Handling (JSONL format)
-
-Logging & Error Handling
-
-Modular Python Project Structure
-
-Configuration Management
-
-Automation using Scripts
-
-⚖️ Notes & Guidelines
-✅ Use only publicly available data from Apache JIRA.
-
-⏳ Respect rate limits — avoid overloading the Apache servers.
-
-🧪 You may use alternative APIs or innovative scraping methods.
-
-🤖 LLM-assisted coding is allowed, but you must understand your approach.
-
-🧩 Future Enhancements
-Add sentiment analysis on issue descriptions
-
-Integrate with Apache JIRA REST API for faster data access
-
-Build a simple dashboard for visualization
-
-Store data in a database (e.g., SQLite or PostgreSQL)
+Example log entry:
+```
+[2025-11-01 14:25:37] INFO: Fetched 100 issues from project HADOOP
+[2025-11-01 14:26:12] WARNING: Failed to fetch issue SPARK-998 (Timeout)
+```
