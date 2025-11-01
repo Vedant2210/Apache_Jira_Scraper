@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Web Scraping Tutor
 
 🕸️ Apache Jira Scraper
@@ -139,3 +140,6 @@ API rate limit (429)	Graceful wait with retry
 5xx server errors	Automatic retry with delay
 Incomplete run	Checkpoint reload resumes last position
 Empty/malformed JSON	Skipped and logged without crashing
+=======
+# Apache_Jira_Scraper
+>>>>>>> 952838e49c0b7026f7a55cb5433a190395cea711
