@@ -44,7 +44,7 @@ apache-jira-scraper/
 
 yaml
 Copy code
-
+```
 ---
 
 ## ⚙️ Installation & Setup
