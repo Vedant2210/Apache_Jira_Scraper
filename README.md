@@ -19,24 +19,28 @@ It scrapes **publicly available data** from the [Apache JIRA](https://issues.apa
 
 ---
 
+---
+
 ## 🏗️ Project Structure
 
+```bash
 apache-jira-scraper/
 │
 ├── config/
-│ └── settings.py # Configuration variables (project names, limits)
+│   └── settings.py           # Configuration variables (projects, limits)
 │
 ├── data/
-│ └── processed/ # Output folder for processed JSONL files
+│   └── processed/            # Output folder for JSONL files
 │
 ├── src/
-│ ├── scraper.py # Core scraper logic
-│ ├── transform.py # Data transformation & saving
-│ └── logger.py # Logging setup
+│   ├── scraper.py            # Core scraping logic
+│   ├── transform.py          # Data transformation and saving
+│   └── logger.py             # Logging setup
 │
-├── main.py # Entry point for the project
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
+├── main.py                   # Main entry point
+├── requirements.txt          # Project dependencies
+└── README.md                 # Documentation
+
 
 yaml
 Copy code
