@@ -174,7 +174,7 @@ Each project’s issue data will be scraped, transformed, and saved in .jsonl fo
 | 🔟 | **End of pipeline** | — | Process completed successfully |
 
 ---
-##Output Format
+## Output Format
 
 All processed issues are stored in:
 ```
