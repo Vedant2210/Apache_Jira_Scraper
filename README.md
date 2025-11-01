@@ -53,10 +53,12 @@ Copy code
 ```bash
 git clone https://github.com/Vedant2210/Apache_Jira_Scraper.git
 cd Apache_Jira_Scraper
+```
 2️⃣ Create a Virtual Environment
 bash
-Copy code
+```
 python -m venv venv
+```
 3️⃣ Activate the Virtual Environment
 Windows:
 
