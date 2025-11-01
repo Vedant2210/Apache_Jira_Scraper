@@ -63,41 +63,46 @@ python -m venv venv
 Windows:
 
 bash
-Copy code
+```
+Windows:
 venv\Scripts\activate
-macOS/Linux:
 
-bash
-Copy code
+macOS/Linux:
 source venv/bin/activate
+```
 4️⃣ Install Dependencies
 bash
-Copy code
+```
 pip install -r requirements.txt
+```
 ▶️ Usage
 Run the Scraper
+```
 bash
-Copy code
+
 python main.py
+```
 The scraper will start fetching issues for all projects listed in your settings.py file.
 
 By default, it will process:
 
 ini
-Copy code
+
 DEFAULT_PROJECTS = ["HADOOP", "SPARK", "KAFKA"]
+
 Output Format
 All processed issues will be stored in:
 
-bash
-Copy code
+
 data/processed/{project_name}_issues.jsonl
+
 Each line in the .jsonl file represents one issue in JSON format, for example:
 
 json
-Copy code
+
 {"id": "HADOOP-1001", "summary": "Fix namenode error", "status": "Open", "reporter": "user123"}
 {"id": "SPARK-2020", "summary": "Improve shuffle performance", "status": "Closed", "reporter": "dev456"}
+
 🧠 Key Concepts Covered
 Web Scraping (requests, BeautifulSoup)
 
