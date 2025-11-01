@@ -1,0 +1,251 @@
+2025-11-01 19:07:11,489 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:10:49,632 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:10:52,313 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:10:55,907 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:10:58,986 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:02,008 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:04,885 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:07,691 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:10,504 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:13,324 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:16,132 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:18,941 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:21,750 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:24,570 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:27,379 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:30,188 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:33,005 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:35,809 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:38,610 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:41,417 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:44,227 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:47,050 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:49,871 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:52,679 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:55,505 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:11:58,311 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:01,159 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:04,004 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:06,841 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:09,656 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:12,913 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:14,973 - ERROR - Request failed (attempt 1/5): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-01 19:12:18,549 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:21,742 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:24,942 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:27,942 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:30,930 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:36,509 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:12:38,110 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:41,300 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:44,857 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:48,421 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:51,822 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:55,195 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:12:58,386 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:01,614 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:04,797 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:07,798 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:10,802 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:13,793 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:16,782 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:19,827 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:22,863 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:25,883 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:28,893 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:31,885 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:34,726 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:37,538 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:40,358 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:43,181 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:45,694 - ERROR - Request failed (attempt 1/5): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-01 19:13:49,026 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:51,900 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:54,764 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:13:57,638 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:00,509 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:03,373 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:06,235 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:09,119 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:11,999 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:14,871 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:17,741 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:20,612 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:23,478 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:26,350 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:29,217 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:32,085 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:34,970 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:37,839 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:40,701 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:43,571 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:46,436 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:49,308 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:52,171 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:55,042 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:14:57,905 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:00,778 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:03,653 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:06,520 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:09,381 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:12,246 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:15,110 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:17,973 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:20,842 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:23,707 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:26,581 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:29,450 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:32,318 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:35,186 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:38,132 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:41,003 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:43,875 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:46,752 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:49,623 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:52,483 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:55,352 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:15:58,235 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:01,101 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:03,986 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:06,886 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:09,758 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:12,625 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:15,491 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:18,369 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:21,236 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:24,098 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:26,963 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:29,829 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:34,942 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:16:35,882 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:38,501 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:41,128 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:43,745 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:46,365 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:48,989 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:51,615 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:54,249 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:56,867 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:16:59,501 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:02,134 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:04,763 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:07,420 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:10,040 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:12,673 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:15,293 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:17,940 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:21,179 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:23,223 - ERROR - Request failed (attempt 1/5): ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-01 19:17:26,484 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:29,372 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:34,151 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:37,440 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:40,370 - ERROR - Error fetching HADOOP at 0: expected str, bytes or os.PathLike object, not dict
+2025-11-01 19:17:43,776 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:17:45,135 - INFO - Fetched 50 issues from HADOOP (startAt=0)
+2025-11-01 19:17:48,319 - INFO - Fetched 50 issues from HADOOP (startAt=50)
+2025-11-01 19:17:50,322 - INFO - Completed fetch for project HADOOP. Total issues: 100
+2025-11-01 19:19:07,990 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:19:08,003 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:19:10,422 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:19:10,422 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:19:45,445 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:19:45,447 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:19:45,449 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:19:46,157 - INFO - Fetched 50 issues from SPARK (startAt=0)
+2025-11-01 19:19:48,528 - INFO - Fetched 50 issues from SPARK (startAt=50)
+2025-11-01 19:19:50,530 - INFO - Completed fetch for project SPARK. Total issues: 100
+2025-11-01 19:19:50,539 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:19:51,053 - INFO - Fetched 50 issues from KAFKA (startAt=0)
+2025-11-01 19:19:53,576 - INFO - Fetched 50 issues from KAFKA (startAt=50)
+2025-11-01 19:19:55,579 - INFO - Completed fetch for project KAFKA. Total issues: 100
+2025-11-01 19:21:29,862 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:21:29,862 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:21:29,865 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:21:29,866 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:21:29,869 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:21:29,869 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 19:21:42,552 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:21:42,553 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:21:42,556 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:21:42,558 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:21:42,560 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:21:42,561 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 19:24:49,261 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:24:49,261 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:24:49,265 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:24:49,265 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:24:49,268 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:24:49,269 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 19:27:45,617 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:27:46,891 - INFO - Fetched 50 issues from HADOOP (startAt=0)
+2025-11-01 19:27:49,984 - INFO - Fetched 50 issues from HADOOP (startAt=50)
+2025-11-01 19:27:51,987 - INFO - Completed fetch for project HADOOP. Total issues: 100
+2025-11-01 19:27:52,004 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:27:52,435 - INFO - Fetched 50 issues from SPARK (startAt=0)
+2025-11-01 19:27:54,868 - INFO - Fetched 50 issues from SPARK (startAt=50)
+2025-11-01 19:27:56,869 - INFO - Completed fetch for project SPARK. Total issues: 100
+2025-11-01 19:27:56,881 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:27:57,491 - INFO - Fetched 50 issues from KAFKA (startAt=0)
+2025-11-01 19:28:00,129 - INFO - Fetched 50 issues from KAFKA (startAt=50)
+2025-11-01 19:28:02,132 - INFO - Completed fetch for project KAFKA. Total issues: 100
+2025-11-01 19:30:02,882 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:30:02,883 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:30:02,886 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:30:02,889 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:30:02,893 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:30:02,895 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 19:30:25,650 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:30:26,931 - INFO - Fetched 50 issues from HADOOP (startAt=0)
+2025-11-01 19:30:30,038 - INFO - Fetched 50 issues from HADOOP (startAt=50)
+2025-11-01 19:30:32,041 - INFO - Completed fetch for project HADOOP. Total issues: 100
+2025-11-01 19:30:32,049 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:30:32,474 - INFO - Fetched 50 issues from SPARK (startAt=0)
+2025-11-01 19:30:34,911 - INFO - Fetched 50 issues from SPARK (startAt=50)
+2025-11-01 19:30:36,914 - INFO - Completed fetch for project SPARK. Total issues: 100
+2025-11-01 19:30:36,923 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:30:37,543 - INFO - Fetched 50 issues from KAFKA (startAt=0)
+2025-11-01 19:30:40,163 - INFO - Fetched 50 issues from KAFKA (startAt=50)
+2025-11-01 19:30:42,166 - INFO - Completed fetch for project KAFKA. Total issues: 100
+2025-11-01 19:32:36,282 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:32:37,576 - INFO - Fetched 50 issues from HADOOP (startAt=0)
+2025-11-01 19:32:42,471 - INFO - Fetched 50 issues from HADOOP (startAt=50)
+2025-11-01 19:32:44,474 - INFO - Completed fetch for project HADOOP. Total issues: 100
+2025-11-01 19:32:44,481 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:32:45,206 - INFO - Fetched 50 issues from SPARK (startAt=0)
+2025-11-01 19:32:47,622 - INFO - Fetched 50 issues from SPARK (startAt=50)
+2025-11-01 19:32:49,624 - INFO - Completed fetch for project SPARK. Total issues: 100
+2025-11-01 19:32:49,633 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:32:50,305 - INFO - Fetched 50 issues from KAFKA (startAt=0)
+2025-11-01 19:32:53,466 - INFO - Fetched 50 issues from KAFKA (startAt=50)
+2025-11-01 19:32:55,469 - INFO - Completed fetch for project KAFKA. Total issues: 100
+2025-11-01 19:34:00,440 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:34:00,442 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:34:00,445 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:34:00,448 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:34:00,453 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:34:00,455 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 19:34:43,878 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:34:45,221 - INFO - Fetched 50 issues from HADOOP (startAt=0)
+2025-11-01 19:34:48,365 - INFO - Fetched 50 issues from HADOOP (startAt=50)
+2025-11-01 19:34:50,368 - INFO - Completed fetch for project HADOOP. Total issues: 100
+2025-11-01 19:34:50,376 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:34:50,818 - INFO - Fetched 50 issues from SPARK (startAt=0)
+2025-11-01 19:34:53,274 - INFO - Fetched 50 issues from SPARK (startAt=50)
+2025-11-01 19:34:55,277 - INFO - Completed fetch for project SPARK. Total issues: 100
+2025-11-01 19:34:55,285 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:34:55,732 - INFO - Fetched 50 issues from KAFKA (startAt=0)
+2025-11-01 19:34:58,391 - INFO - Fetched 50 issues from KAFKA (startAt=50)
+2025-11-01 19:35:00,393 - INFO - Completed fetch for project KAFKA. Total issues: 100
+2025-11-01 19:37:55,245 - INFO - Starting fetch for project: HADOOP
+2025-11-01 19:37:55,248 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 19:37:55,252 - INFO - Starting fetch for project: SPARK
+2025-11-01 19:37:55,255 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 19:37:55,258 - INFO - Starting fetch for project: KAFKA
+2025-11-01 19:37:55,260 - INFO - Completed fetch for project KAFKA. Total issues: 0
+2025-11-01 22:42:35,727 - INFO - Starting fetch for project: HADOOP
+2025-11-01 22:42:35,729 - INFO - Completed fetch for project HADOOP. Total issues: 0
+2025-11-01 22:42:35,735 - INFO - Starting fetch for project: SPARK
+2025-11-01 22:42:35,736 - INFO - Completed fetch for project SPARK. Total issues: 0
+2025-11-01 22:42:35,741 - INFO - Starting fetch for project: KAFKA
+2025-11-01 22:42:35,742 - INFO - Completed fetch for project KAFKA. Total issues: 0

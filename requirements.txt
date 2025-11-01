@@ -1,0 +1,6 @@
+requests
+tenacity
+tqdm
+beautifulsoup4
+python-dateutil
+jsonlines

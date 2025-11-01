@@ -1,0 +1,20 @@
+2025-11-01 19:19:45,447 - WARNING - No issues to process for project: HADOOP
+2025-11-01 19:19:50,530 - INFO - Processing 100 issues for project SPARK
+2025-11-01 19:19:50,536 - INFO - Processed data saved: ./data/processed\SPARK_processed.json
+2025-11-01 19:19:55,580 - INFO - Processing 100 issues for project KAFKA
+2025-11-01 19:19:55,585 - INFO - Processed data saved: ./data/processed\KAFKA_processed.json
+2025-11-01 19:21:29,863 - WARNING - No issues to process for project: HADOOP
+2025-11-01 19:21:29,866 - WARNING - No issues to process for project: SPARK
+2025-11-01 19:21:29,870 - WARNING - No issues to process for project: KAFKA
+2025-11-01 19:21:42,554 - WARNING - No issues to process for project: HADOOP
+2025-11-01 19:21:42,558 - WARNING - No issues to process for project: SPARK
+2025-11-01 19:21:42,561 - WARNING - No issues to process for project: KAFKA
+2025-11-01 19:24:49,263 - WARNING - No issues to process for project: HADOOP
+2025-11-01 19:24:49,265 - WARNING - No issues to process for project: SPARK
+2025-11-01 19:24:49,270 - WARNING - No issues to process for project: KAFKA
+2025-11-01 19:27:51,988 - INFO - Processing 100 issues for project HADOOP
+2025-11-01 19:27:52,001 - INFO - Processed data saved: ./data/processed\HADOOP_processed.json
+2025-11-01 19:27:56,872 - INFO - Processing 100 issues for project SPARK
+2025-11-01 19:27:56,878 - INFO - Processed data saved: ./data/processed\SPARK_processed.json
+2025-11-01 19:28:02,133 - INFO - Processing 100 issues for project KAFKA
+2025-11-01 19:28:02,139 - INFO - Processed data saved: ./data/processed\KAFKA_processed.json

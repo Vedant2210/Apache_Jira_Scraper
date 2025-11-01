@@ -1,0 +1,42 @@
+2025-11-01 19:30:02,883 - INFO - Processing 0 issues for project HADOOP
+2025-11-01 19:30:02,885 - INFO - Processed data saved: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:30:02,889 - INFO - Processing 0 issues for project SPARK
+2025-11-01 19:30:02,890 - INFO - Processed data saved: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:30:02,895 - INFO - Processing 0 issues for project KAFKA
+2025-11-01 19:30:02,898 - INFO - Processed data saved: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 19:30:32,041 - INFO - Processing 100 issues for project HADOOP
+2025-11-01 19:30:32,046 - INFO - Processed data saved: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:30:36,916 - INFO - Processing 100 issues for project SPARK
+2025-11-01 19:30:36,921 - INFO - Processed data saved: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:30:42,167 - INFO - Processing 100 issues for project KAFKA
+2025-11-01 19:30:42,170 - INFO - Processed data saved: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 19:32:44,475 - INFO - Processing 100 issues for project HADOOP
+2025-11-01 19:32:44,478 - INFO - Processed data appended to: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:32:49,627 - INFO - Processing 100 issues for project SPARK
+2025-11-01 19:32:49,630 - INFO - Processed data appended to: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:32:55,469 - INFO - Processing 100 issues for project KAFKA
+2025-11-01 19:32:55,473 - INFO - Processed data appended to: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 19:34:00,442 - INFO - Processing 0 issues for project HADOOP
+2025-11-01 19:34:00,443 - INFO - Processed data appended to: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:34:00,448 - INFO - Processing 0 issues for project SPARK
+2025-11-01 19:34:00,449 - INFO - Processed data appended to: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:34:00,456 - INFO - Processing 0 issues for project KAFKA
+2025-11-01 19:34:00,456 - INFO - Processed data appended to: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 19:34:50,369 - INFO - Processing 100 issues for project HADOOP
+2025-11-01 19:34:50,372 - INFO - Processed data appended to: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:34:55,280 - INFO - Processing 100 issues for project SPARK
+2025-11-01 19:34:55,283 - INFO - Processed data appended to: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:35:00,394 - INFO - Processing 100 issues for project KAFKA
+2025-11-01 19:35:00,398 - INFO - Processed data appended to: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 19:37:55,249 - INFO - Processing 0 issues for project HADOOP
+2025-11-01 19:37:55,249 - INFO - Processed data appended to: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 19:37:55,255 - INFO - Processing 0 issues for project SPARK
+2025-11-01 19:37:55,256 - INFO - Processed data appended to: ./data/processed\SPARK_processed.jsonl
+2025-11-01 19:37:55,261 - INFO - Processing 0 issues for project KAFKA
+2025-11-01 19:37:55,262 - INFO - Processed data appended to: ./data/processed\KAFKA_processed.jsonl
+2025-11-01 22:42:35,730 - INFO - Processing 0 issues for project HADOOP
+2025-11-01 22:42:35,732 - INFO - Processed data appended to: ./data/processed\HADOOP_processed.jsonl
+2025-11-01 22:42:35,737 - INFO - Processing 0 issues for project SPARK
+2025-11-01 22:42:35,738 - INFO - Processed data appended to: ./data/processed\SPARK_processed.jsonl
+2025-11-01 22:42:35,743 - INFO - Processing 0 issues for project KAFKA
+2025-11-01 22:42:35,743 - INFO - Processed data appended to: ./data/processed\KAFKA_processed.jsonl
