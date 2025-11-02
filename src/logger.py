@@ -1,20 +1,4 @@
-# import logging
-# import os
 
-# def get_logger(name):
-#     os.makedirs("logs", exist_ok=True)
-#     logger = logging.getLogger(name)
-#     logger.setLevel(logging.INFO)
-#     handler = logging.FileHandler(f"logs/{name}.log")
-#     console = logging.StreamHandler()
-#     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
-#     handler.setFormatter(formatter)
-#     console.setFormatter(formatter)
-#     logger.addHandler(handler)
-#     logger.addHandler(console)
-#     return logger
-
-# src/logger.py
 
 import logging
 import os
